@@ -6,7 +6,7 @@ gem 'haml-rails'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'jquery-rails'
 gem 'simple_form', '~> 2.0.0'
-gem 'cancan'
+gem 'cancan', '>= 1.6.8'
 gem 'youtube_it', '~> 2.1.4'
 gem 'unicorn'
 gem 'capistrano'
@@ -16,7 +16,7 @@ gem 'client_side_validations', '~> 3.2.0.beta3'
 gem 'rubyzip'
 gem 'newrelic_rpm'
 gem 'awesome_print'
-gem 'forem', :git => "git://github.com/radar/forem.git"
+gem 'forem', :git => "git://github.com/andypike/forem.git"
 gem 'redcarpet' # to be removed
 gem 'sanitize'
 
