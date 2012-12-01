@@ -43,6 +43,10 @@ group :test, :development do
   gem 'database_cleaner'
   gem 'launchy'
   gem 'fuubar'
+  gem 'fakeweb'
+  gem 'autotest'
+  gem 'autotest-fsevent'
+  gem 'autotest-standalone'
 end
 
 group :test, :darwin do
